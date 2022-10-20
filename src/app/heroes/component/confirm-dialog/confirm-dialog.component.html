@@ -1,0 +1,12 @@
+<h1>¿Estás seguro?</h1>
+<hr>
+<p>Estás a punto de eliminar a {{data.superhero}}
+    <br>
+    <br>
+    ¿Deseas continuar?
+</p>
+<div fxLayout>
+    <button mat-raised-button (click)="close()">No, Cancelar</button>
+    <span class="spaceflex"></span>
+    <button mat-raised-button color="warn" (click)="delete()">Sí, Eliminar</button>
+</div>
